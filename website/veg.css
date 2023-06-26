@@ -1,0 +1,262 @@
+.aa {
+    background-color: rgb(61, 220, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 45px;
+    font-size: smaller;
+    margin-bottom: 0;
+    padding-left: 120px;
+
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .carticon {
+    margin-right: 100px;
+    margin-top: 5px;
+  }
+
+  .img {
+    background-image: url("https://freepngimg.com/save/174860-and-vegetables-organic-fruits-download-hd/1799x1067");
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    /* opacity: 0.75;  */
+
+  }
+
+  #center {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+
+  .centered-1 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+
+  }
+
+  .sub-heading {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+
+  .btn-success {
+    /* text-align: center; */
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
+  }
+
+  .fresh {
+    opacity:0.6;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  .fresh:hover{
+    opacity: 1.0;
+  }
+
+  .diet {
+    opacity:0.6;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+  .diet:hover{
+    opacity: 1.0;
+  }
+  .award {
+    opacity:0.6;
+    border-radius: 50%;
+    height: 80px;
+    width: 100px;
+  }
+  .award:hover{
+    opacity: 1.0;
+  }
+  .service {
+    opacity:0.6;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+  .service:hover{
+    opacity: 1.0;
+  }
+  .fadeinout {
+    animation: fadeinout 4s infinite;
+  }
+
+  .shop-body {
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+
+  .card {
+    height: 100px;
+    margin-top: 70px;
+  }
+
+  .card h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 5px;
+    margin-bottom: -103px;
+    background-color: yellowgreen;
+
+  }
+
+  .card-2 {
+    margin-top: 150px;
+  }
+
+  .card-2 h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 5px;
+    margin-bottom: -5px;
+    background-color: yellowgreen;
+
+  }
+
+  .veg {
+    text-align: center;
+    font-style: italic;
+    margin-top: 60px;
+  }
+
+  #btn {
+    top: 100%;
+  }
+
+  .pp {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .card-3 h1 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 2px;
+    /* margin-bottom: -5px; */
+    background-color: yellowgreen;
+  }
+
+  /* .card-3 :hover{
+transform: scale(1.1);
+} */
+  .zoom :hover {
+    transform: scale(1.1);
+  }
+
+  .icons {
+    text-align: center;
+    justify-content: space-around;
+
+  }
+
+  .icons svg {
+    margin-left: 20px;
+    /* background-color: green;
+color:white; */
+
+
+  }
+  .icons-2 svg{
+    margin-left: 30px;
+   
+}
+  span {
+    color: green;
+  }
+
+  .text {
+    text-align: right;
+   margin-right: 700px;
+    font-style: italic;
+    color:green;
+    margin-top: 10px;
+    padding-top: 50px;
+    /* position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ } */
+  }
+.img-2{
+background-image:url(bg-1.jpg);
+background-size: cover;
+width: 100%;
+height: 800px;
+text-align: right;
+margin-right: 30px;
+
+}
+.form-control{
+font-size:100px;
+ margin-top: 48px; 
+ margin-left: 100px;
+}
+#sub{
+font-size:medium;
+padding-left: 20px;
+margin-left: 70px;
+margin-bottom: 800px;
+
+}
+
+
+
+  @keyframes fadeinout {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
